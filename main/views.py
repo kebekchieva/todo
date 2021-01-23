@@ -6,3 +6,6 @@ def test(request):
 
 def second(request):
     return HttpResponse("test2 page")
+
+def hw3(request):
+    return HttpResponse("This is page test3")
